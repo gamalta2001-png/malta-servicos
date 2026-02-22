@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malta Serviços e Assessoria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #ffffff; color: #333; }
+    header { background: #f4f6f8; padding: 80px 20px; text-align: center; }
+    header h1 { font-size: 42px; margin-bottom: 20px; }
+    header p { font-size: 18px; max-width: 700px; margin: 0 auto 30px; }
+    .btn { display: inline-block; padding: 14px 28px; background: #111; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; }
+    section { padding: 80px 20px; max-width: 1100px; margin: auto; }
+    .grid { display: grid; gap: 30px; }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: center; }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .card { background: #f9f9f9; padding: 30px; border-radius: 12px; text-align: center; }
+    .card h3 { margin-bottom: 15px; }
+    img { width: 100%; border-radius: 12px; }
+    .gallery img { height: 220px; object-fit: cover; }
+    footer { background: #111; color: #fff; text-align: center; padding: 30px 20px; }
+    .contact { text-align: center; }
+    .contact p { margin-bottom: 20px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Malta Serviços e Assessoria</h1>
+  <p>Especialistas em Big Bags para importação, exportação e armazenamento de commodities, além de assessoria completa para implantação de fábricas.</p>
+  <a href="#contato" class="btn">Solicitar Orçamento</a>
+</header>
+
+<section class="grid grid-2">
+  <div>
+    <h2>Sobre Nós</h2>
+    <p style="margin-top:15px; line-height:1.6;">
+      Atuamos como ponte estratégica entre compradores e fabricantes de Big Bags, garantindo qualidade, prazo e competitividade.
+      Também oferecemos consultoria especializada para implantação de fábricas, incluindo layout produtivo, definição de equipe,
+      maquinário e indicação de fornecedores de tecido.
+    </p>
+  </div>
+  <div>
+    <img src="https://images.unsplash.com/photo-1581091012184-5c40d3c2d6f1" alt="Big Bag">
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center; margin-bottom:40px;">Nossos Serviços</h2>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Fornecimento de Big Bags</h3>
+      <p>Intermediação entre compradores e fabricantes com foco em qualidade e competitividade.</p>
+    </div>
+    <div class="card">
+      <h3>Implantação de Fábrica</h3>
+      <p>Planejamento completo de layout, estrutura operacional e definição de maquinário.</p>
+    </div>
+    <div class="card">
+      <h3>Consultoria Estratégica</h3>
+      <p>Assessoria para novos fabricantes e indicação de fornecedores especializados.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center; margin-bottom:40px;">Aplicações</h2>
+  <div class="grid grid-3 gallery">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Commodity">
+    <img src="https://images.unsplash.com/photo-1598300053653-5f2d4b9b9b9f" alt="Armazenamento">
+    <img src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0" alt="Exportação">
+  </div>
+</section>
+
+<section id="contato" class="contact">
+  <h2>Contato</h2>
+  <p>Entre em contato para solicitar orçamento ou agendar consultoria.</p>
+  <p><strong>Email:</strong> contato@maltaservicos.com</p>
+  <p><strong>Telefone:</strong> (11) 0000-0000</p>
+</section>
+
+<footer>
+  © 2026 Malta Serviços e Assessoria - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
